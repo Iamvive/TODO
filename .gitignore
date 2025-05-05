@@ -1,0 +1,118 @@
+HELP.md
+.gradle
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+### Kotlin ###
+.kotlin
+
+
+# Compiled output
+target/
+
+# IntelliJ IDEA related files
+.idea/
+.DS_Store
+
+# Gradle related files
+.gradle/
+settings.gradle.kts.cache/
+settings.gradle.cache/
+gradle-app.setting
+gradle-build-scan-data/
+gradle/wrapper/gradle-wrapper.jar
+gradle/wrapper/gradle-wrapper.properties
+
+# Maven related files (in case you switch or have some Maven dependencies)
+.mvn/
+pom.xml.versionsBackup
+pom.xml.backup
+.flattened-pom.xml.cache
+.flattened-pom.xml
+
+# Kotlin build artifacts
+*.kotlin_module
+
+# Log files
+*.log
+logs/
+
+# Environment-specific files
+.env
+*.properties # Consider if you have sensitive info in application.properties
+application-*.properties # Ignore specific environment files if they contain secrets
+
+# Temporary files and directories
+tmp/
+temp/
+.tmp
+$RECYCLE.BIN/
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# OS-specific files (if any)
+._*
+*.swp
+*.swo
+.Spotlight-V100
+.Trashes
+[Tt]humbs.db
+._.DS_Store
+
+# NetBeans specific (if used)
+nbproject/
+
+
+# Docker related (if you plan to use Docker)
+Dockerfile.local
+docker-compose*.yml
+.dockerignore
+
+# Executable JAR file (if you build one directly)
+*.jar
+
+# Dependency management specific (if you use something else)
+# For example, for dependency managers other than Gradle/Maven
+
+# More generic ignores that might be useful
+*.backup
+*.orig
+*~
+*.patch
+
+# Ignore your IDE's run configurations (may contain local paths)
+runConfigurations/
